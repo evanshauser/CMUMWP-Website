@@ -1,0 +1,678 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Header {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:150px;
+	z-index:1;
+	background-color: #FFFFFF;
+}
+.style1 {
+	color: #000000
+}
+body {
+	background-color: #4694B9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+}
+#Navbar {
+	position:absolute;
+	left:0px;
+	top:160px;
+	width:800px;
+	height:50px;
+	z-index:2;
+	background-color: #FFFFFF;
+}
+#Footer {
+	position:absolute;
+	left:0px;
+	top:770px;
+	width:800px;
+	height:30px;
+	z-index:4;
+	background-color: #FFFFFF;
+}
+
+#Content {
+	position:absolute;
+	left:0px;
+	top:220px;
+	width:800px;
+	height:540px;
+	z-index:3;
+	background-color: #FFFFFF;
+}
+#Ball1 {
+	position:absolute;
+	left:0px;
+	top:60px;
+	width:90px;
+	height:90px;
+	z-index:1;
+	overflow: visible;
+}
+
+#Logo {
+	position:absolute;
+	left:99px;
+	top:1px;
+	width:600px;
+	height:141px;
+	z-index:5;
+	overflow: visible;
+}
+#Footer td {
+	width: 253px;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+#Navbar table {
+	width: 800px;
+	height: 50px;
+}
+#Footer table {
+	width: 800px;
+	height: 30px;
+}
+
+#Navbar td {
+	width: 148px;
+	text-align: center;
+	height: 30px;
+	font-size: 18px;
+}
+#Ball2 {
+	position:absolute;
+	width:90px;
+	height:90px;
+	z-index:6;
+	left: 710px;
+}
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+a:active {
+	color: #333333;
+	text-decoration: none;
+}
+#Wrapper {
+	position:relative;
+	width:800px;
+	height:800px;
+	z-index:5;
+}
+.currentpage {
+	font-weight: bolder;
+	color: #92191C;
+}
+#introtext {
+	position:absolute;
+	left:14px;
+	top:7px;
+	width:770px;
+	height:40px;
+	z-index:6;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-style: oblique;
+}
+#pool {
+	position:absolute;
+	left:250px;
+	top:60px;
+	width:300px;
+	height:200px;
+	z-index:6;
+}
+#text1 {
+	position:absolute;
+	left:53px;
+	top:300px;
+	width:323px;
+	height:160px;
+	z-index:6;
+	line-height: 25px;
+	text-align: left;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+#text2 {
+	position:absolute;
+	width:400px;
+	height:240px;
+	z-index:1;
+	left: 48px;
+	top: -5px;
+	line-height: 25px;
+	text-align: left;
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#CWPA {
+	position:absolute;
+	width:200px;
+	height:200px;
+	z-index:2;
+	left: 500px;
+	top: 20px;
+}
+#teams {
+	position:absolute;
+	left:500px;
+	top:250px;
+	width:275px;
+	height:260px;
+	z-index:6;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+}
+#Wrapper #Content #teams label {
+	font-size: 16px;
+	font-weight: bolder;
+}
+#teamstitle {
+	font-size: 18px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom-width: 0px;
+}
+ul {
+}
+#Wrapper #Content #Roster label {
+	font-size: 24px;
+	font-weight: bolder;
+}
+#Wrapper #Content #Roster li {
+	text-align: left;
+}
+
+#CMU {
+	position:absolute;
+	width:200px;
+	height:222px;
+	z-index:1;
+	left: 140px;
+	top: 296px;
+	background-color: #FFFFFF;
+	visibility: visible;
+}
+
+#GroveCity {
+	position:absolute;
+	width:200px;
+	height:153px;
+	z-index:7;
+	top: 335px;
+	left: 127px;
+	visibility: hidden;
+}
+#Drexel {
+	position:absolute;
+	width:250px;
+	height:196px;
+	z-index:8;
+	left: 109px;
+	top: 321px;
+	visibility: hidden;
+}
+#Deleware {
+	position:absolute;
+	width:200px;
+	height:200px;
+	z-index:9;
+	left: 139px;
+	top: 314px;
+	visibility: hidden;
+}
+#Bloomsburg {
+	position:absolute;
+	width:250px;
+	height:170px;
+	z-index:10;
+	left: 111px;
+	top: 329px;
+	visibility: hidden;
+}
+#Lehigh {
+	position:absolute;
+	width:200px;
+	height:196px;
+	z-index:11;
+	left: 135px;
+	top: 311px;
+	visibility: hidden;
+}
+#UPenn {
+	position:absolute;
+	width:200px;
+	height:247px;
+	z-index:12;
+	left: 129px;
+	top: 286px;
+	visibility: hidden;
+}
+#PSU {
+	position:absolute;
+	width:250px;
+	height:170px;
+	z-index:13;
+	left: 102px;
+	top: 322px;
+	visibility: hidden;
+}
+#UPitt {
+	position:absolute;
+	width:150px;
+	height:150px;
+	z-index:14;
+	left: 148px;
+	top: 333px;
+	visibility: hidden;
+}
+#Villanova {
+	position:absolute;
+	width:200px;
+	height:242px;
+	z-index:15;
+	left: 132px;
+	top: 287px;
+	visibility: hidden;
+}
+#Millersville {
+	position:absolute;
+	width:150px;
+	height:148px;
+	z-index:16;
+	left: 160px;
+	top: 333px;
+	visibility: hidden;
+}
+#news {
+	position:absolute;
+	width:700px;
+	height:230px;
+	z-index:6;
+	left: 50px;
+	top: 275px;
+	font-size:16px;
+	font-weight:bolder;
+}
+#Wrapper #Content #news li {
+	text-align: left;
+	line-height: 25px;
+}
+#scheduledates {
+	text-align: left;
+	width: 100px;
+}
+#Wrapper #Content #schedulerosternav li {
+	text-align: left;
+	line-height: 30px;
+}
+
+
+#schedulelocations {
+	text-align: left;
+}
+#Roster {
+	position:absolute;
+	width:500px;
+	height:525px;
+	z-index:1;
+	left: 265px;
+	top: 10px;
+	visibility: visible;
+}
+#schedulelink {
+	font-style: italic;
+	font-size: 18px;
+}
+
+#Fall08 {
+	position:absolute;
+	width:500px;
+	height:250px;
+	z-index:2;
+	left: 265px;
+	top: 10px;
+	visibility: hidden;
+}
+#Wrapper #Content #practiceschedule ul {
+	text-align: left;
+	line-height: 25px;
+}
+
+#schedulerosternav {
+	position:absolute;
+	width:250px;
+	height:175px;
+	z-index:3;
+	left: 0px;
+	top: 30px;
+	padding: 0px;
+}
+#Schedulelabel    {
+	font-size: 24px;
+	font-weight: bolder;
+}
+#Spring09 {
+	position:absolute;
+	width:500px;
+	height:200px;
+	z-index:4;
+	left: 265px;
+	top: 10px;
+	visibility: hidden;
+}
+#capnums {
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#rosternames {
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#rosteryears {
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#rosterhometowns {
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#practiceschedule {
+	position:absolute;
+	width:250px;
+	height:175px;
+	z-index:5;
+	left: 0px;
+	top: 250px;
+}
+#practices {
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#thankyou {
+	position:absolute;
+	width:500px;
+	height:75px;
+	z-index:1;
+	left: 150px;
+	top: 25px;
+	font-size: 24px;
+	font-weight: bolder;
+}
+#big_picture {
+  border: 0px solid black;
+}
+
+#big_picture img {
+  opacity: 1;
+}#teampic1 {
+	position:absolute;
+	width:500px;
+	height:369px;
+	z-index:1;
+	left: 170px;
+	top: 23px;
+	visibility: visible;
+}
+#teampic2 {
+	position:absolute;
+	width:500px;
+	height:375px;
+	z-index:2;
+	left: 171px;
+	top: 22px;
+	visibility: hidden;
+}
+#teampic3 {
+	position:absolute;
+	width:500px;
+	height:375px;
+	z-index:3;
+	left: 172px;
+	top: 23px;
+	visibility: hidden;
+}
+#teampic4 {
+	position:absolute;
+	width:500px;
+	height:333px;
+	z-index:4;
+	left: 172px;
+	top: 43px;
+	visibility: hidden;
+}
+#teampic5 {
+	position:absolute;
+	width:500px;
+	height:294px;
+	z-index:5;
+	left: 170px;
+	top: 63px;
+	visibility: hidden;
+}
+#teampic6 {
+	position:absolute;
+	width:500px;
+	height:375px;
+	z-index:1;
+	top: 22px;
+	left: 173px;
+	visibility: hidden;
+}
+#teampic1thumb {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:6;
+	left: 50px;
+	top: 445px;
+}
+#teampic2thumb {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:7;
+	left: 175px;
+	top: 445px;
+}
+#teampic3thumb {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:8;
+	left: 300px;
+	top: 445px;
+}
+#teampic4thumb {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:9;
+	left: 425px;
+	top: 445px;
+}
+#teampic5thumb {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:10;
+	left: 550px;
+	top: 445px;
+}
+#teampic6thumb {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:11;
+	left: 675px;
+	top: 445px;
+}
+#teampic1thumb2 {
+	position:absolute;
+	width:75px;
+	height:64px;
+	z-index:12;
+	left: 50px;
+	top: 445px;
+}
+#Form {
+	position:absolute;
+	z-index:6;
+	top: 50px;
+	left: 50px;
+	height: 425px;
+	width: 325px;
+}
+#requiredfields {
+	font-size: 16px;
+	font-style: oblique;
+	text-align: left;
+}
+#submitbutton {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.formlabels {
+	font-size: 18px;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#message {
+	height: 125px;
+	width: 350px;
+}
+.alignright {
+	float: right;
+	width: 200px;
+	text-align: inherit;
+}
+#FormLinkstitle {
+	font-size: 24px;
+	font-weight: bold;
+}
+#formtable {
+	width: 325px;
+}
+#Links {
+	position:absolute;
+	width:350px;
+	height:425px;
+	z-index:7;
+	left: 400px;
+	top: 50px;
+}
+#linkstable {
+	width: 300px;
+}
+.links {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+#caption {
+	font-size: 20px;
+	padding: 0px;
+	height: 50px;
+	position: absolute;
+	width: 700px;
+	left: 50px;
+	top: 10px;
+}
+#pictures {
+	height: 375px;
+	width: 700px;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#active {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	max-height: 375px;
+}
+
+#gallerynav {
+	height: 90px;
+	width: 700px;
+	left: 50px;
+	white-space: nowrap;
+	overflow: auto;
+	position: absolute;
+	top: 440px;
+}
+#obvlink {
+	text-decoration: underline;
+}
+#invite09table {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+#times {
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#team{
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#score {
+	font-size: 16px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}

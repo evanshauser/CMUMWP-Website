@@ -1,0 +1,5 @@
+AuthType webiso
+
+<Limit POST GET>
+require valid-user
+</Limit>

@@ -1,0 +1,134 @@
+
+
+
+ <!-- <!DOCTYPE html> -->
+<link href="waterpolomen.css" rel="stylesheet" type="text/css">
+
+<html>
+<style type="text/css">
+#apDiv1 {
+	position:absolute;
+	width:760px;
+	height:70%;
+	z-index:3;
+	left: 20px;
+	top: 30px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px black solid;
+}
+#apDiv2 {
+	position:absolute;
+	width:200;
+	height:200;
+	z-index:4;
+	left: 33px;
+	top: 285px;
+}
+#apDiv3 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:4;
+	left: 265px;
+	top: 251px;
+}
+#apDiv4 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:4;
+	left: 519px;
+	top: 268px;
+}
+</style>
+    <head>
+        <title>Contact</title>
+
+        <script type="text/javascript" src="javascript/jquery.js"></script>
+
+        <script type="text/javascript">
+            jQuery(function(){
+                    jQuery('.header').load('templates/header.html');
+                    jQuery('.footer').load('templates/footer.html');
+                });
+        </script>
+
+        <div class="header"> </div>
+
+
+
+
+<!-- CONTENT GOES HERE -->
+<div id="Wrapper">
+<br />
+
+
+
+ <div id="Form"> <center>
+    <form id="ContactBoard" name="ContactBoard" method="post" action="http://www.andrew.cmu.edu/cgi-bin/mailto">
+    <table id="formtable" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td id="FormLinkstitle"><span id="formtable">Contact the Team Board:</span></td>
+    </tr>
+  <tr>
+    <td class="formlabels" id="formlab"><span id="formtable">*First Name:</span></td>
+  </tr>
+  <tr>
+    <td><span id="formtable">
+      <input autocomplete="off" name="FirstName" class="alignright" id="FirstName" tabindex="1" type="text">
+      <span class="textfieldRequiredMsg">Required</span></span></td>
+    </tr>
+  <tr>
+    <td class="formlabels" id="formlabels"><span id="formtable">*Last Name:</span></td>
+   </tr>
+   <tr>
+    <td><span id="formtable">
+      <input autocomplete="off" name="LastName" class="alignright" id="LastName" tabindex="2" type="text">
+      <span class="textfieldRequiredMsg">Required</span></span></td>
+    </tr>
+  <tr>
+    <td class="formlabels" id="formlabels"><span id="formtable">Organization:</span></td>
+    </tr>
+    <tr>
+    <td><span id="formtable">
+      <input name="Organization" class="alignright" id="Organization" tabindex="3" type="text">
+    </span></td>
+    </tr>
+  <tr>
+    <td class="formlabels" id="formlabels"><span id="formtable">*E-mail:</span></td>
+    </tr>
+    <tr>
+    <td><span id="formtable">
+    <input autocomplete="off" name="Email" class="alignright" id="Email" tabindex="4" type="text">
+    <span class="textfieldRequiredMsg">Required</span></span></td>
+    </tr>
+  <tr>
+    <td class="formlabels"><span id="formtable">*Message:</span></td>
+    </tr>
+  <tr>
+    <td><span id="formtable">
+      <textarea autocomplete="off" name="message" class="alignright" id="message" tabindex="5"></textarea>
+      <span class="textareaRequiredMsg">Required</span></span></td>
+  </tr>
+  <tr>
+    <td id="submitbutton"><span id="formtable">
+      <input name="Submit" id="Submit" value="Submit" tabindex="6" type="submit">
+    </span></td>
+    </tr>
+  <tr>
+    <td id="requiredfields"><span id="formtable">*Required Fields</span></td>
+    </tr>
+</tbody></table>
+	<input name="MailTo" id="MailTo" value="cmumwp-board@lists.andrew.cmu.edu" type="hidden">
+	<input name="RedirectURL" value="http://www.andrew.cmu.edu/org/cmumwp/thankyou.html" type="hidden">
+    </form>
+    </center>
+</div>
+  <div id="Links">
+    <table id="linkstable" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td id="FormLinkstitle">&nbsp;</td>
+      </tr>
+</div>
+</html>

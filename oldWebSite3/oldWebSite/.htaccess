@@ -1,0 +1,5 @@
+Redirect 303 /~cmuwp/ http://www.andrew.cmu.edu/org/cmuwp/
+Redirect 303 /user/cmuwp/ http://www.andrew.cmu.edu/org/cmuwp/
+Redirect 303 /~cmuwp/index.html http://www.andrew.cmu.edu/org/cmuwp/
+Redirect 303 /user/cmuwp/index.html http://www.andrew.cmu.edu/org/cmuwp/
+

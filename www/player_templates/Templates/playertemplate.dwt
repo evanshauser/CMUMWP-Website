@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html> -->
+<link href="waterpolomen.css" rel="stylesheet" type="text/css">
+
+<html>
+<style type="text/css">
+#apDiv1 {
+	position:absolute;
+	width:515px;
+	height:237px;
+	z-index:3;
+	left: 19%;
+	top: 28px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px black solid;
+}
+#apDiv2 {
+	position:absolute;
+	width:200;
+	height:200;
+	z-index:4;
+	left: 33px;
+	top: 285px;
+}
+#apDiv3 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:4;
+	left: 265px;
+	top: 251px;
+}
+#apDiv4 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:4;
+	left: 519px;
+	top: 268px;
+}
+</style>
+<center>
+
+<div id="banner"></div>
+
+</center>
+<!-- TemplateBeginEditable name="EditRegion2" -->
+<div class="nav" id="navbar">
+  <ul>
+    <li><a href="file:///C|/Users/Yannick/Desktop/new_waterpolo_first_try/index.html">Home</a></li>
+    <li><a href="file:///C|/Users/Yannick/Desktop/new_waterpolo_first_try/roster.html">Roster</a></li>
+    <li><a href="file:///C|/Users/Yannick/Desktop/new_waterpolo_first_try/schedule.html">Schedule</a></li>
+    <li><a href="file:///C|/Users/Yannick/Desktop/new_waterpolo_first_try/about.html">About</a></li>
+    <li><a href="file:///C|/Users/Yannick/Desktop/new_waterpolo_first_try/www.facebook.com"> Facebook </a></li>
+    <li><a href="file:///C|/Users/Yannick/Desktop/new_waterpolo_first_try/contact.html">Contact</a></li>
+  </ul>
+</div>
+<!-- TemplateEndEditable -->
+<!-- CONTENT GOES HERE -->
+<div id="Wrapper">
+<center>
+  <!-- TemplateBeginEditable name="EditRegion1" --><br>
+  <div id="apDiv1">
+    <table width="543" height="239" border="0" align="center">
+      <tr>
+        <td width="160"><strong>Yannick Hogarth</strong></td>
+        <td width="154"><strong>Ht</strong>: 6'0</td>
+        <td width="215" rowspan="3">Picture</td>
+      </tr>
+      <tr>
+        <td><strong>Position: </strong>2MD/UTL</td>
+        <td><strong>Wt:</strong> 186 lbs</td>
+      </tr>
+      <tr>
+        <td><strong>Field of Study / Year: </strong>Electrical &amp; Computer Engineering , Biomedical Engineering 2014</td>
+        <td><strong>Years of Involvement: </strong>2 (3rd year currently)</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </div>
+  <!-- TemplateEndEditable -->
+</center>
+</div>
+<div align="left"><br>
+</div>
+
+
+
+</html>

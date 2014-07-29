@@ -1,0 +1,16 @@
+images/gallery/seniors '10.jpg|Seniors, Spring 2010
+images/gallery/Spring 10.jpg|Last Practice, Spring 2010
+images/gallery/Fall 09.jpg|Fall 2009
+images/gallery/09.jpg|Last Practice, Fall 2009
+images/gallery/09-1.jpg|Last Practice, Fall 2009
+images/gallery/teampic4.jpg|Last Practice, Spring 2008
+images/gallery/teampic3.jpg|Last Practice, Spring 2006
+images/gallery/Senior Muscles.JPG|Graduating Seniors, Spring 2006
+images/gallery/teampic6.jpg|Virginia Tech, Spring 2006
+images/gallery/Rochester06 066.jpg|Rochester, Spring 2006
+images/gallery/Rochester06 060.jpg|Rochester, Spring 2006
+images/gallery/Rochester06 142.jpg|Rochester, Spring 2006
+images/gallery/div 3 club tournament finals 021.jpg|Mid-Atlantic Conference Finals, Fall 2005
+images/gallery/teampic5.jpg|Villanova, Fall 2005
+images/gallery/teampic2.jpg|Division III Tournament, Fall 2005 - Webster, NY
+images/gallery/teampic1.jpg|Bloomsburg, Fall 2005

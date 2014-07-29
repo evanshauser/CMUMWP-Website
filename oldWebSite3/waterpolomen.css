@@ -1,0 +1,155 @@
+@charset "utf-8";
+/*This is a typical Cascading Style Sheet for the Men's Water Polo Website*/
+
+/*HTML STYLING*/
+
+html 
+{
+	background: url(images/background1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: arial;
+	color: #000;
+	position: center;
+}
+
+#Wrapper {
+	margin: auto;
+	width: 800px;
+	height: 110%;
+	background-color: #FFFFFF;
+	color: black;
+	border: 1px black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border-color: #000;
+	outline-color: #000;
+	border-style: solid;
+	position: relative;
+}
+#wrapright{
+	position: absolute;
+	left: 579px;
+	top: 10px;
+	border: #000;
+	border-width: 3px;
+	}
+div.nav
+{
+	font: Arial;
+	width: 800px;
+	padding: 0px;
+	border: 0px black;
+	margin:auto;
+	background-color: black;
+	color:white;
+	font-size: 18px;
+	border-right-color: #000;
+	border-left-color: #000;
+	border-bottom-color: #000;
+	border-top-color: #666;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+}
+
+
+#navbar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: auto;
+	width: 800px;
+	height: 30px;
+}
+
+
+
+#banner
+{
+	width: 800px;
+	border-color: #000;
+	border: 1px;
+	border-style: solid;
+	background-image: url(images/banner3.jpg);
+	height: 200px;
+	color: #000;
+	
+}
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+
+li
+{
+display:inline;
+}
+
+
+a:link,a:visited
+
+{
+color:#FFFFFF;
+text-align:center;
+padding:5px;
+text-decoration:none;
+}
+
+
+
+a:hover,a:active
+{
+	text-decoration:underline;
+}
+
+
+#Wrapper #apDiv1 table {
+	color: #000;
+	font-size: 14px;
+	border-color: #F00;
+	border-style: solid;
+	border-width: 0px;
+	height: auto;
+}
+body em {
+	color: #000;
+}
+#link {
+	color: #00F;
+}
+#navbar ul li a {
+	color: #FFF;
+}
+.designed {
+	color: #FFF;
+	text-align: center;
+}
+.design1 {
+	color: #FFF;
+}
+
+#fssPrev{position:absolute;top:169px;left:-67px;background:url(arrows.png) -67px 0px;width:67px;height:143px;text-indent:-999999px;}
+#fssNext{position:absolute;top:169px;left:646px;background:url(arrows.png) no-repeat;width:67px;height:143px;text-indent:-999999px;}
+#fssPlayPause{position:absolute;top:435px;right:20px;background:url(white.png) repeat;padding:4px 0 5px 0;-moz-border-radius:5px;border-radius:5px;width:60px;text-align:center;display:block;color:#333;text-decoration:none;}
+
+ul#slideshow{list-style:none;border:1px solid #999;padding:2px;margin:auto;margin-top:5%;width:640px;height:480px;overflow:hidden;}
+#fssList{list-style:none;width:646px;margin:auto;padding:5px 0 0 45%;}
+#fssList li{display:inline;padding-right:10px;}
+#fssList li a{color:#999;text-decoration:none;}
+#fssList li.fssActive a{font-weight:bold;color:#333;}
+#apDiv2 p {
+	color: #000;
+}
